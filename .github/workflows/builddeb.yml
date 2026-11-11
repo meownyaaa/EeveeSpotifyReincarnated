@@ -32,9 +32,6 @@ jobs:
           - scheme: rootless
             label: rootless
             theos_repository: theos/theos
-          - scheme: roothide
-            label: RootHide
-            theos_repository: roothide/theos
 
     env:
       THEOS: ${{ github.workspace }}/theos
